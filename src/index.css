@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@theme {
+    --color-orange: hsl(18, 83%, 53%);
+}
+
+@layer base {
+    body{
+        /* @apply mt-16; */
+    }
+}
