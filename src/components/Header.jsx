@@ -32,7 +32,7 @@ function Header() {
       <div className="flex items-center justify-between max-w-5xl mx-auto text-slate-200">
         <div className="flex justify-center items-center overflow-hidden h-16">
           <img
-            src="/src/assets/suitmedia.png"
+            src="public/static/images/suitmedia.png"
             alt="suitmedia-icon"
             className="w-30"
           />
