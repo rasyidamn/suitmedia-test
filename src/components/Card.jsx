@@ -2,7 +2,7 @@ import React from "react";
 
 function Card({ title, date, id }) {
   const imgSource =
-    id % 2 ? "public/static/images/bgCard1.jpeg" : "public/static/images/bgCard2.jpeg";
+    id % 2 ? "/static/images/bgCard1.jpeg" : "/static/images/bgCard2.jpeg";
   return (
     <div className="max-w-sm bg-white rounded-lg shadow-lg ">
       <div className="overflow-hidden rounded-t-lg">
